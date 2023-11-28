@@ -1,0 +1,64 @@
+/* base clases */
+.flex {
+    display: flex;
+}
+
+/* header styles */
+
+body {
+    background-color: #ccffe6;
+}
+.logo {
+    max-width:80px;
+    width: 100%;
+}
+.header-logo {
+    width: 100%;
+    border-radius: 50px;
+}
+.header {
+    max-width: 1370px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: #ccffe6
+}
+.nav-ul{
+    justify-content: space-between;
+    align-items: center;
+    font-family: BPG Algeti;
+    font-weight: bold;
+}
+.nav-li {
+    font-size: 20px;
+}
+.nav-li:not(.lastli) {
+    margin-right: 50px;
+}
+.headerli {
+    color: #006633;
+}
+.calculator-wrapper {
+    align-items: center;
+    font-family: BPG Algeti;
+    color: #006633;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 400px;
+    width: 100%;
+}
+
+.calculator {
+    max-width: 60px;
+    width: 100%;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #4dffa6;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+
+}

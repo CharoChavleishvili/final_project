@@ -142,6 +142,7 @@ body {
   .right-block img {
     max-width: 500px;
     width: 100%;
+    border-radius: 20px;
   }
   .right-block {
     position: absolute;
@@ -152,7 +153,7 @@ body {
   .cal h3 {
     font-size: 35px;
     margin-bottom: 15px;
-    color: #B22222;
+    color: #b32d00;
     font-weight: bolder;
     margin-left: 50px;
   }
@@ -169,10 +170,8 @@ body {
   .order {
     margin-top: 30px;
     margin-left: 15px;
-  }
-  .order {
     border-radius: 20px;
-    border: 2px solid #00664d;
+    border: 2px solid #b32d00;
     max-width: 150px;
     width: 100%;
     height: 40px;
@@ -180,5 +179,56 @@ body {
     align-items: center;
   }
   .odrer1 {
-    color: #00664d;
+    color: #b32d00;
+  }
+
+  /* section2 */
+
+  .cal2 h3{
+    color: #ff8000;
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    margin-left: 50px;
+  }
+  .cal2 p {
+    color:  #00664d;
+    margin-bottom: 10px;
+    margin-left: 15px;
+  }
+  .cal2 span {
+    font-size: 20px;
+    color:  #00664d;
+    margin-left: 15px;
+  }
+  .order2 {
+    border: 2px solid #ff8000;
+  }
+  .sheuk{
+    color: #ff8000;
+  }
+
+  /* section 3 */
+  .cal3 h3{
+    color: #1f7a1f;
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    margin-left: 50px;
+  }
+  .cal3 p {
+    color:  #00664d;
+    margin-bottom: 10px;
+    margin-left: 15px;
+  }
+  .cal3 span {
+    font-size: 20px;
+    color:  #00664d;
+    margin-left: 15px;
+  }
+  .order4 {
+    border: 2px solid #1f7a1f;
+  }
+  .sheukvete {
+    color: #1f7a1f ;
   }

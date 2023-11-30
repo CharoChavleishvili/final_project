@@ -19,12 +19,12 @@ body {
 .header {
     max-width: 1370px;
     width: 100%;
-    
     position: fixed;
     justify-content: space-between;
     padding: 20px;
     align-items: center;
-    background-color: #ccffe6
+    background-color: #ccffe6;
+    z-index: 20;
 
 }
 .nav-ul{
@@ -85,29 +85,71 @@ body {
     border-radius: 300px;
     background-color: #ffffffff;
     position: relative;
-    animation: mymove 5s infinite ;
+    animation: div 8s infinite ;
 }
-.divs {
+.left-block {
     max-width: 600px;
     width: 100%;
     margin: 0 auto;
+    position: relative;
+    
 }
-/* .sectiondiv2 {
-    max-width: 200px;
+.sectiondiv2 {
+    max-width: 350px;
     width: 100%;
-    height: 200px;
-    border-radius: 30% 70% 48% 52% / 30% 30% 70% 70% ;
+    height: 350px;
+    border-radius: 300px;
     background-color: #ffffffff;
-    position: absolute;
-} */
+    position: relative;
+    animation: div2 7s infinite;
+    margin-left: 200px;
+    margin-top:-200px;
+}
+.sectiondiv3 {
+    max-width: 350px;
+    width: 100%;
+    height: 350px;
+    border-radius: 300px;
+    background-color: #ffffffff;
+    position: relative;
+    animation: div 9s infinite;
+    margin-left: 100px;
+    margin-top: -100px;
 
-@keyframes mymove {
+}
+
+@keyframes div {
     0%   {top: 0px; left: 0px;}
     25%  {top: 0px; left: 100px;}
     50%  {top: 100px; left: 100px;}
     75%  {top: 100px; left: 0px;}
     100% {top: 0px; left: 0px;}
   }
-
-
-
+  @keyframes div2 {
+    0%   {top: 0px; left: 0px;}
+    25%  {top: 0px; left: 70px;}
+    50%  {top: 70px; left: 70px;}
+    75%  {top: 70px; left: 0px;}
+    100% {top: 0px; left: 0px;}
+  }
+  @keyframes div3 {
+    0%   {top: 0px; left: 0px;}
+    25%  {top: 0px; left: 90px;}
+    50%  {top: 90px; left: 90px;}
+    75%  {top: 90px; left: 0px;}
+    100% {top: 0px; left: 0px;}
+  }
+  .right-block img {
+    max-width: 500px;
+    width: 100%;
+  }
+  .right-block {
+    position: absolute;
+    padding-top: 150px;
+    padding-left: 100px;
+    align-items: center;
+  }
+  .cal h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }

@@ -232,3 +232,28 @@ body {
   .sheukvete {
     color: #1f7a1f ;
   }
+
+  /* section 4 */
+  .cal4 h3{
+    color: #e6e600;
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    margin-left: 50px;
+  }
+  .cal4 p {
+    color:  #00664d;
+    margin-bottom: 10px;
+    margin-left: 15px;
+  }
+  .cal4 span {
+    font-size: 20px;
+    color:  #00664d;
+    margin-left: 15px;
+  }
+  .order5 {
+    border: 2px solid #e6e600;
+  }
+  .sheukvet {
+    color: #e6e600;
+  }

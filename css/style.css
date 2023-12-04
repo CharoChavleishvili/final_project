@@ -257,3 +257,43 @@ body {
   .sheukvet {
     color: #e6e600;
   }
+
+  /* footer */
+  .footer-div {
+    background-color:	 #ffffb3;
+    width: 100%;
+    height: 300px;
+  }
+  .div-foot {
+    max-width: 1370px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 70px;
+    display: flex;
+    justify-content:flex-end;
+ 
+  }
+  .right-box {
+    font-family: 'ALK Rounded Mtav Med';
+    font-size: 19px;
+    width: 300px;
+  }
+  .email {
+    color: #006600;
+  }
+  .tel {
+    color: #006600;
+  }
+
+  /* cal1500 */
+  .form1 {
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  .sort {
+    margin-top: 15px;
+  }

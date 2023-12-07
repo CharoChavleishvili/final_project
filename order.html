@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>freshstart</title>
+    <script
+      src="https://kit.fontawesome.com/a0b71cd01f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="order-header">
+      <div class="header flex header-order">
+        <div class="logo">
+          <a href="index.html">
+            <img class="header-logo" src="images/logo.png" alt=" Logo" />
+          </a>
+        </div>
+        <div class="navigation-wrapper flex">
+          <nav class="navigation">
+            <ul class="nav-ul flex">
+              <li class="nav-li">
+                <a class="headerli" href="index.html"> მთავარი </a>
+              </li>
+              <li class="nav-li">
+                <a class="headerli" href="#"> ჩვენს შესახებ </a>
+              </li>
+              <li class="nav-li lastli">
+                <a class="headerli" href="#"> დაიწყე დღეს </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="calculator-wrapper flex">
+          <span> კალორიების კალკულატორი </span>
+          <div class="calculator flex">
+            <a href="#">
+              <i class="fa-solid fa-calculator"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- section 1 -->
+    <section class="section-order-div">
+      <div class="payment-div">
+        <p>ანგარიშსწორება და მიწოდება</p>
+        <div class="payment">
+          <div class="box1">
+            <form action="#">
+              <div class="name-div">
+                <div class="box2">
+                  <label for="name"> სახელი: </label>
+                  <input
+                    class="lname1"
+                    type="text"
+                    id="name"
+                    placeholder="სახელი"
+                  />
+                </div>
+                <div class="box2">
+                  <label for="lname"> გვარი: </label>
+                  <input
+                    class="lname1"
+                    type="text"
+                    id="lname"
+                    placeholder="გვარი"
+                  />
+                </div>
+              </div>
+              <div class="box3-divs">
+                <div class="box3">
+                  <label for="adress"> დეტალური მისამართი </label>
+                  <input
+                    class="adress1"
+                    type="textarea"
+                    id="adress"
+                    placeholder="საბურთალო, მინდელის 11ბ, სადარბაზო 1, სართული 15, ბინა 207"
+                  />
+                </div>
+                <div class="box3">
+                  <label for="tel"> ტელეფონის ნომერი </label>
+                  <input
+                    class="tel1"
+                    type="tel"
+                    id="tel"
+                    placeholder="000-00-00-00"
+                    pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                    required
+                  /><br /><br />
+                </div>
+                <div class="box3">
+                  <label for="email"> ელ-ფოსტის მისამართი </label>
+                  <input
+                    class="email1"
+                    type="email"
+                    id="tel"
+                    placeholder="ელ-ფოსტის მისამართი"
+                  />
+                </div>
+              </div>
+              <div class="button">
+                <input class="submit" type="submit" value="გაგზავნა" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <!-- <footer>
+    <div class="footer-div">
+      <div class="div-foot">
+        <div class="right-box">
+          <span class="email"> Email: </span> charo.chavleishvili@gmail.com
+          <span class="tel"> Tel: </span> +995 557 63 53 10
+        </div>
+      </div>
+    </div>
+  </footer> -->
+</html>

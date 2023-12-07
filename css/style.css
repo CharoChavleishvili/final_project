@@ -5,6 +5,14 @@
 .bg-color011 {
     background-color: #ccffe6;
 }
+.forms-div-wrapper {
+    width: 300px;
+    height: 40px;
+}
+.forms-div-wrapper2 {
+    width: 400px;
+    height: 40px;
+}
 
 /* header styles */
 .logo {
@@ -225,10 +233,10 @@
     color:  #00664d;
     margin-left: 15px;
   }
-  .order4 {
+  .order10 {
     border: 2px solid #1f7a1f;
   }
-  .sheukvete {
+  .sheukvetet {
     color: #1f7a1f ;
   }
 
@@ -316,99 +324,88 @@
   }
 
   /* order.html */
-  .payment-div {
-    max-width: 1070px;
+.contariner-div {
+    max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-  }
-  .header-order {
+    padding-top: 200px;
+}
+.header-order {
     mix-blend-mode: multiply;
     background-color: #ffffff;
   }
-  .payment-div p {
-    text-align: center;
-    font-size: 25px;
+.payment-div h3 {
+    font-size: 30px;
     font-weight: bold;
-    margin-bottom: 40px;
-  }
-  .box1 {
-    display: flex;
-    flex-direction: column;
-  }
-  .box2 {
-    display: inline-block;
-    margin-top: 30px;
-    max-width: 200px;
-    width: 100%;
-    margin-right: 50px;
-  }
-  .box2 input {
-    margin-top: 15px;
-  }
-  .box3 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-    margin-left: 50px;
-  }
-  .box3 label {
     margin-bottom: 20px;
-  }
-  .box1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: lightgrey;
-  }
-  .name1 {
-    max-width: 400px;
-    width: 100%;
-    height: 40px;
-  }
-  .lname1 {
-    max-width: 400px;
-    width: 100%;
-    height: 40px;
-  }
-  .adress1 {
-    max-width: 500px;
-    width: 100%;
-    height: 100px;
-  }
-  .tel1 {
-    max-width: 300px;
-    width: 100%;
-    height: 40px;
-  }
-  .email1 {
-    max-width: 300px;
-    width: 100%;
-    height: 40px;display: flex;
-  }
-  .button {
-    width: 100px;
-    margin: 0 auto;
-  }
-.submit {
-    border-style: solid;
-    width: 200px;
-    height: 40px;
-    background-color: #006600;
-    font-size: 18px;
-    cursor: pointer;
-    margin-bottom: 60px;
-    margin-top: 80px;
+    text-align: center;
+    margin-top: 50px;
 }
-.name-div {
-    display: block;
-    margin-left: 50px;
+.payment-div {
+    background-color: #f2f2f2;
+    padding: 30px;
 }
-.box3-divs {
-    width: 500px;
+.box2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
 }
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.box1 {
+    display: flex;
+}
+.name2 {
+    margin-right: 50px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.adress1 {
+    width: 500px;
+    height: 100px;
+}
+.column label {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.box2 label {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.column input {
+    border-style: groove;
+    border-color: lightgrey;
+}
+.box2 input {
+    border-style: groove;
+    border-color: lightgrey;
+}
+.button {
+    margin: 50px auto;
+}
+.submit {
+    width: 120px;
+    height: 40px;
+    border-color: lightgrey;
+    background-color: #00664d;
+    font-size: 17px;
+    color: #ffffff;
+}
+::placeholder {
+    font-style: italic;
+    color: 	  #bfbfbf;
+}
+

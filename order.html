@@ -46,68 +46,58 @@
       </div>
     </header>
     <!-- section 1 -->
-    <section class="section-order-div">
-      <div class="payment-div">
-        <p>ანგარიშსწორება და მიწოდება</p>
-        <div class="payment">
-          <div class="box1">
-            <form action="#">
-              <div class="name-div">
-                <div class="box2">
-                  <label for="name"> სახელი: </label>
-                  <input
-                    class="lname1"
-                    type="text"
-                    id="name"
-                    placeholder="სახელი"
-                  />
-                </div>
-                <div class="box2">
-                  <label for="lname"> გვარი: </label>
-                  <input
-                    class="lname1"
-                    type="text"
-                    id="lname"
-                    placeholder="გვარი"
-                  />
-                </div>
+    <section>
+      <div class="contariner-div">
+        <div class="payment-div">
+          <h3>ანგარიშსწორება და მიწოდება</h3>
+          <form action="#">
+            <div class="box1">
+              <div class="column">
+                <label for="name"> სახელი: </label>
+                <input
+                  class="forms-div-wrapper name2"
+                  type="text"
+                  id="name"
+                  placeholder="სახელი"
+                />
               </div>
-              <div class="box3-divs">
-                <div class="box3">
-                  <label for="adress"> დეტალური მისამართი </label>
-                  <input
-                    class="adress1"
-                    type="textarea"
-                    id="adress"
-                    placeholder="საბურთალო, მინდელის 11ბ, სადარბაზო 1, სართული 15, ბინა 207"
-                  />
-                </div>
-                <div class="box3">
-                  <label for="tel"> ტელეფონის ნომერი </label>
-                  <input
-                    class="tel1"
-                    type="tel"
-                    id="tel"
-                    placeholder="000-00-00-00"
-                    pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
-                    required
-                  /><br /><br />
-                </div>
-                <div class="box3">
-                  <label for="email"> ელ-ფოსტის მისამართი </label>
-                  <input
-                    class="email1"
-                    type="email"
-                    id="tel"
-                    placeholder="ელ-ფოსტის მისამართი"
-                  />
-                </div>
+              <div class="column">
+                <label for="lname"> გვარი: </label>
+                <input
+                  class="forms-div-wrapper"
+                  type="text"
+                  id="lname"
+                  placeholder="გვარი"
+                />
               </div>
-              <div class="button">
-                <input class="submit" type="submit" value="გაგზავნა" />
-              </div>
-            </form>
-          </div>
+            </div>
+            <div class="box2">
+              <label for="adress"> დეტალური მისამართი </label>
+              <textarea
+                class="adress1"
+                name="adress"
+                id="adress"
+                placeholder="საბურთალო, მინდელის 11ბ, სადარბაზო 1, სართული 15, ბინა 207"
+              ></textarea>
+              <label for="telephone"> ტელეფონის ნომერი </label>
+              <input
+                class="forms-div-wrapper2"
+                type="tel"
+                id="telephone"
+                placeholder="000-00-00-00"
+              />
+              <label for="email"> ელ-ფოსტის მისამართი </label>
+              <input
+                class="forms-div-wrapper2"
+                type="email"
+                id="email"
+                placeholder="ელ-ფოსტის მისამართი"
+              />
+            </div>
+            <div class="button">
+              <input class="submit" type="submit" value="გაგზავნა" />
+            </div>
+          </form>
         </div>
       </div>
     </section>
